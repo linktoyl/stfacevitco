@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/facedemo/facedemo.iml" filepath="$PROJECT_DIR$/facedemo/facedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seetaface/seetaface.iml" filepath="$PROJECT_DIR$/seetaface/seetaface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stfacevitco.iml" filepath="$PROJECT_DIR$/stfacevitco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcamvt/webcamvt.iml" filepath="$PROJECT_DIR$/webcamvt/webcamvt.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.vitco.stface.dao.StFaceDao">
+
+
+    <insert id="regFace" parameterType="FaceFeat">
+        insert into FACE_FEAT_BASE(id_card_num, face_feat) values(#{id_card_num}, #{face_feat})
+    </insert>
+
+    <select id="queryAllFaceBase" resultType="FaceFeat">
+        select id_card_num, face_feat from FACE_FEAT_BASE
+    </select>
+
+    <select id="queryIdentByID" parameterType="String" resultType="IdentityInfo">
+        select * from IDENTITY_INFO WHERE ID_CARD_NUM = #{id_card_num}
+    </select>
+
+
+</mapper>
